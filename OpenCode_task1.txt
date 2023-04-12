@@ -1,0 +1,41 @@
+1)explain very briefly between Git and GitHub?
+
+Git and GitHub are related tools that are commonly used by developers to manage software projects, but they serve different functions.
+
+Git is a distributed version control system that allows developers to track changes in their code over time, collaborate with others, and revert to previous versions if necessary. It enables developers to work on different branches of the same codebase simultaneously and merge their changes when ready. Git is a command-line tool that can be used locally or on a remote server.
+
+GitHub, on the other hand, is a web-based platform that provides hosting for Git repositories. It allows developers to store their Git repositories online, making it easy to collaborate with others and access their code from anywhere with an internet connection. GitHub provides additional features like issue tracking, project management tools, and collaboration features like pull requests and code reviews. It also allows developers to contribute to open-source projects by submitting pull requests.
+
+In summary, Git is a software tool that manages version control, while GitHub is an online service that provides hosting for Git repositories and offers additional features to support collaboration and project management. Developers can use Git without GitHub, but GitHub provides a convenient platform for hosting and collaborating on Git repositories.
+
+2)explain any 5 basic commands?
+
+git log: Shows a log of all commits made in the repository.
+
+git stash: Temporarily saves changes that are not yet ready to commit.
+
+git reset: Unstages changes that were previously staged.
+
+git remote: Lists, adds, or removes remote repositories.
+
+git diff: Shows the differences between two commits or between the working directory and the staging area
+
+3)How to make a Pull Request?
+
+To make a pull request in GitHub, follow these steps:
+
+Fork the repository: Go to the repository you want to contribute to and click the "Fork" button in the top-right corner of the page. This will create a copy of the repository in your own GitHub account.
+
+Clone the repository: Go to your own repository and copy the URL to clone the repository. Then, open your command line interface and type git clone <repository-url> to create a local copy of the repository on your machine.
+
+Create a new branch: Type git checkout -b <branch-name> to create a new branch and switch to it. This branch should include the changes you want to make to the original repository.
+
+Make your changes: Edit or add files to the repository to make the changes you want to contribute.
+
+Commit your changes: Use git add <filename> to stage the changes you made and then git commit -m "Commit message" to commit them to the repository.
+
+Push the changes to GitHub: Use git push origin <branch-name> to push your changes to the remote repository on GitHub.
+
+Create a pull request: Go to your forked repository on GitHub and click the "New pull request" button. Choose the original repository as the base repository and your own forked repository as the head repository. GitHub will compare the changes between the two repositories and you can add a title and description for your pull request.
+
+Submit the pull request: Once you're satisfied with the changes and the description, click the "Create pull request" button to submit your pull request to the original repository.
